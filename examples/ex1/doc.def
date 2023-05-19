@@ -1,0 +1,19 @@
+author: ck
+sources: use(sections)
+
+sections: {
+	root: "root",
+	attr: [
+		"attr",
+		settings: {
+			toc_entry: false
+		}
+	]
+}
+
+output: [
+	"single_doc",
+	settings: {
+		preferred_format: "md"
+	}
+]
